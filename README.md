@@ -17,13 +17,14 @@ ng new project --no-standalone
 ```
 * --no-standalone (criar o projeto com o arquivo app.modules.ts) para compatibildiades com projeto Angular < 16
 
+## Estrutura de um componente 
+
 Gerar um novo componente
 
 ```css
 ng generate component componente
 ```
 
-## Estrutura de um componente 
 - card.component.scss -> estilização (css)
 - card.component.html -> html 
 - card.component.spec.ts -> testes unitários
