@@ -38,3 +38,24 @@ CREATE src/app/card/card.component.spec.ts (583 bytes)
 CREATE src/app/card/card.component.ts (192 bytes)
 UPDATE src/app/app.module.ts (467 bytes)
 ```
+## Classes Angular 
+
+@Component: Define um componente Angular, especificando seu template, estilos, e outras propriedades.
+
+```js
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-card',
+  templateUrl: './card.component.html',
+  styleUrl: './card.component.scss'
+})
+export class CardComponent {
+
+}
+```
+
+
+
+
+
