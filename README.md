@@ -106,5 +106,9 @@ ng generate module cards
 export class AppModule { }
 ```
 
+### Utilizando componente de um módulo em outro módulo. 
+
+![image](https://github.com/FrankDestro/Angular17-Docs/assets/93776452/c70548b7-7234-4665-8e77-b6292a1372f0)
+
 
 
