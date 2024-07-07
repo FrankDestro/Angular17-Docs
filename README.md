@@ -43,7 +43,8 @@ UPDATE src/app/app.module.ts (467 bytes)
 
 ## Classes Angular 
 
-@Component: Define um componente Angular, especificando seu template, estilos, e outras propriedades.
+### @Component
+Define um componente Angular, especificando seu template, estilos, e outras propriedades.
 
 ```js
 import { Component } from '@angular/core';
@@ -79,7 +80,24 @@ p {
 }
 ```
 
+### @NgModule 
+É usado para definir um módulo em Angular. Um módulo é um contêiner que agrupa componentes, diretivas, pipes e serviços relacionados, facilitando a organização e a manutenção da aplicação. Vamos analisar cada uma das propriedades e o que elas fazem no exemplo fornecido:
 
+```js 
+@NgModule({
+  declarations: [
+    AppComponent,
+    CardComponent
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+```
 
 
 
