@@ -38,6 +38,9 @@ CREATE src/app/card/card.component.spec.ts (583 bytes)
 CREATE src/app/card/card.component.ts (192 bytes)
 UPDATE src/app/app.module.ts (467 bytes)
 ```
+
+![image](https://github.com/FrankDestro/Curso-Angular-17/assets/93776452/c8b75ee0-b490-4b59-b6a0-cd0f68999472)
+
 ## Classes Angular 
 
 @Component: Define um componente Angular, especificando seu template, estilos, e outras propriedades.
@@ -52,6 +55,27 @@ import { Component } from '@angular/core';
 })
 export class CardComponent {
 
+}
+```
+
+* selector - identifica o componente HTML podendo referenciar em outro componente.
+```js
+<app-card/>
+```
+* templateUrl  - Define o layout e a estrutura HTML que o componente irá renderizar
+```js
+<div>
+  <h1>{{ title }}</h1>
+  <p>Welcome to {{ title }}!</p>
+</div>
+```
+* styleUrl - caminho para o css de estilização do componente. 
+```js
+h1 {
+  color: blue;
+}
+p {
+  font-size: 20px;
 }
 ```
 
