@@ -136,7 +136,17 @@ processo de instalação :
 ![image](https://github.com/FrankDestro/Angular17-Docs/assets/93776452/1421c454-6e53-4dd4-b8db-def0679a5fc7)
 
 ### Utilização do Angular/Material 
+
+1 - passo 
+
 ![image](https://github.com/FrankDestro/Angular17-Docs/assets/93776452/48303c2f-4527-4775-ba97-dfc839a5a41c)
+
+2 - passo 
+
+#### Adicionar o theme nas configurações globais no styles.scss
+
+![image](https://github.com/FrankDestro/Angular17-Docs/assets/93776452/a31f98b1-c034-4041-b5d6-fc856e60ad6e)
+
 
 
 
