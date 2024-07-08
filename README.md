@@ -147,6 +147,23 @@ processo de instalação :
 
 ![image](https://github.com/FrankDestro/Angular17-Docs/assets/93776452/a31f98b1-c034-4041-b5d6-fc856e60ad6e)
 
+### View Encapsulation
+
+```css
+@Component({
+  selector: 'app-card',
+  templateUrl: './card.component.html',
+  styleUrl: './card.component.scss',
+  encapsulation : ViewEncapsulation.ShadowDom
+})
+
+```
+
+Encapsulated: Em Angular, o encapsulamento refere-se ao escopo de estilos CSS aplicados a componentes. Por padrão, os estilos CSS de um componente Angular são encapsulados, o que significa que eles não afetam outros componentes fora do escopo, utilizando o ‘ViewEncapsulation’ no componente. Os tipos são:
+1.	Emulated: Em angular, o encapsulamento de estilos é frequentemente emulado usando um mecanismo interno para garantir que os estilos de um componente sejam aplicados apenas ao seu próprio escopo, sem vazar para outros componentes.
+2.	ShadowDom: é um tipo de encapsulamento mais avançado de estilos e comportamentos de componentes, fazendo com que os estilos do componente não vazem para fora e que o componente não pegue estilos externos, ele fica desabilitado até para estilos globais. 
+3.	None: Em Angular, "none" pode ser usado para indicar que nenhum encapsulamento de estilo deve ser aplicado a um componente específico, o que significa que os estilos definidos para esse componente podem afetar globalmente a aplicação.
+Esses termos são frequentemente usados para descrever como os estilos são aplicados e encapsulados dentro da arquitetura de componentes do Angular.
 
 
 
