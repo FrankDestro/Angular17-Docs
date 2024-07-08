@@ -110,5 +110,8 @@ export class AppModule { }
 
 ![image](https://github.com/FrankDestro/Angular17-Docs/assets/93776452/c70548b7-7234-4665-8e77-b6292a1372f0)
 
+### Interpolação em Angular 
+
+![image](https://github.com/FrankDestro/Angular17-Docs/assets/93776452/37d8015e-b618-48f4-816f-31bed23fa162)
 
 
