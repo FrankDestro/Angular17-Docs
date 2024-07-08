@@ -165,8 +165,12 @@ Encapsulated: Em Angular, o encapsulamento refere-se ao escopo de estilos CSS ap
 3.	None: Em Angular, "none" pode ser usado para indicar que nenhum encapsulamento de estilo deve ser aplicado a um componente específico, o que significa que os estilos definidos para esse componente podem afetar globalmente a aplicação.
 Esses termos são frequentemente usados para descrever como os estilos são aplicados e encapsulados dentro da arquitetura de componentes do Angular.
 
+## Binding, Diretivas, Templates, Decorators
 
+### Atributos vs propriedades de um Elemento HTML.
 
+![image](https://github.com/FrankDestro/Angular17-Docs/assets/93776452/0349a52d-a0dc-4373-93dd-edb33480ba68)
 
+### Properties Building 
 
 
