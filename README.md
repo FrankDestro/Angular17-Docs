@@ -114,4 +114,28 @@ export class AppModule { }
 
 ![image](https://github.com/FrankDestro/Angular17-Docs/assets/93776452/37d8015e-b618-48f4-816f-31bed23fa162)
 
+### Angular Material 
+
+Angular Material é uma biblioteca de componentes UI desenvolvida pelo Angular Team da Google que implementa os princípios de Material Design. Ela fornece uma série de componentes prontos para uso, como botões, inputs, dialog boxes, cards, e muitos outros, todos seguindo as diretrizes de design do Material Design
+
+Instalação do Angular/Material 
+```css
+ng add @angular/material
+```
+
+processo de instalação :
+
+![image](https://github.com/FrankDestro/Angular17-Docs/assets/93776452/73ad346e-df77-4714-bed8-cf0e1865930a)
+
+![image](https://github.com/FrankDestro/Angular17-Docs/assets/93776452/9a2aaaff-f89b-4c50-8de1-326c55776c63)
+
+![image](https://github.com/FrankDestro/Angular17-Docs/assets/93776452/5ae515df-57ef-498d-b828-1f8306305915)
+
+![image](https://github.com/FrankDestro/Angular17-Docs/assets/93776452/e95b8bc4-c030-40fb-97e3-fde4ef447af2)
+
+![image](https://github.com/FrankDestro/Angular17-Docs/assets/93776452/1421c454-6e53-4dd4-b8db-def0679a5fc7)
+
+
+
+
 
