@@ -173,4 +173,8 @@ Esses termos são frequentemente usados para descrever como os estilos são apli
 
 ### Properties Building 
 
+Property binding" é uma maneira de vincular valores de componentes a propriedades de elementos DOM na visualização. Ele permite que você controle dinamicamente os valores das propriedades HTML a partir do componente Angular
+
+
+
 
