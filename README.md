@@ -171,14 +171,14 @@ Esses termos são frequentemente usados para descrever como os estilos são apli
 
 ![image](https://github.com/FrankDestro/Angular17-Docs/assets/93776452/0349a52d-a0dc-4373-93dd-edb33480ba68)
 
-### Properties Biding 
+### Properties Binding 
 
 Property binding é usado para passar dados de um componente para uma propriedade de um elemento HTML ou outro componente Angular. Ele permite que você ligue uma propriedade de um componente pai a uma propriedade de um componente filho ou a uma propriedade HTML nativa.
 
 ![image](https://github.com/user-attachments/assets/57ceb561-f2a3-453b-913c-2ee9ed9c5894)
 
 
-### Event Biding 
+### Event Binding 
 
 Event binding é usado para capturar eventos disparados por elementos HTML ou outros componentes Angular e chamar métodos no componente. Ele permite que você reaja a eventos como cliques, digitação de texto, movimentos do mouse, entre outros.
 
