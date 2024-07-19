@@ -175,6 +175,7 @@ Esses termos são frequentemente usados para descrever como os estilos são apli
 
 Property binding" é uma maneira de vincular valores de componentes a propriedades de elementos DOM na visualização. Ele permite que você controle dinamicamente os valores das propriedades HTML a partir do componente Angular
 
+![image](https://github.com/user-attachments/assets/57ceb561-f2a3-453b-913c-2ee9ed9c5894)
 
 
 
