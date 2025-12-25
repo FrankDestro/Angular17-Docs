@@ -1,21 +1,34 @@
 ![image](https://github.com/FrankDestro/Curso-Angular-17/assets/93776452/c0f490ab-b736-4347-8ac9-a2513cc3a0c1) 
 
-# Angular-17 
+# Angular-19
 
 ## Ferramentas e versões 
-* Angular CLI 18.0.7
+* Angular CLI 19.2.19
 * NodeJS 20.12.2
 * TypeScript 5.4.2
-* linux x64 Fedora 40 KDE Plasma
+* Zorin OS 18
+
+## Instalação Angular CLI globalmente 
+### Via npm 
+
+```css
+npm install -g @angular/cli 
+npm install -g @angular/cli@19
+```
 
 ## Criação de um projeto Angular 
 
 Gerar um novo projeto Angular - Ao criar um projeto o primeiro component que será executado é: app.component.html
 
 ```css
-ng new project --no-standalone 
+ng new project --no-standalone --ssr=false --style=scss
 ```
 * --no-standalone (criar o projeto com o arquivo app.modules.ts) para compatibildiades com projeto Angular < 16
+
+Versões mais novas > 16 
+```css
+ng new project --ssr=false --style=scss
+```
 
 ## Estrutura de um componente 
 
