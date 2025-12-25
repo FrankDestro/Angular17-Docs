@@ -37,7 +37,19 @@ Versões mais novas > 16
 ng new project --ssr=false --style=scss
 ```
 
-# ⚙️ Fundamentos Angular - componentes e estilização.
+# ⚙️ Seção 4 - Fundamentos Angular - Componentes e Estilização.
+
+- Conceitos de componente
+- Como criar componentes
+- Problemas na duplicação de componentes
+- Como criar componentes filhos
+- Como referenciar componentes de outros módulos (externos) → agora via imports
+- Interpolação
+- Estratégias de estilização
+- Inline Template e Inline CSS
+- :host
+- ::ng-deep
+- View Encapsulation (None, Emulated, ShadowDOM)
 
 ## Estrutura de um componente 
 
