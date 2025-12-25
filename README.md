@@ -37,6 +37,8 @@ Versões mais novas > 16
 ng new project --ssr=false --style=scss
 ```
 
+# ⚙️ Fundamentos Angular - componentes e estilização.
+
 ## Estrutura de um componente 
 
 Gerar um novo componente
