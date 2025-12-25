@@ -16,6 +16,13 @@ npm install -g @angular/cli
 npm install -g @angular/cli@19
 ```
 
+## Instalação Angular CLI não global (temporário)
+### Via npx 
+
+```css
+npx @angular/cli@19 new project 
+```
+
 ## Criação de um projeto Angular 
 
 Gerar um novo projeto Angular - Ao criar um projeto o primeiro component que será executado é: app.component.html
