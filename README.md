@@ -20,7 +20,7 @@ npm install -g @angular/cli@19
 ### Via npx 
 
 ```css
-npx @angular/cli@19 new project 
+npx @angular/cli@19 new project --ssr=false --style=scss
 ```
 
 ## Criação de um projeto Angular 
