@@ -37,14 +37,14 @@ Versões mais novas > 16
 ng new project --ssr=false --style=scss
 ```
 
-# ⚙️ Seção 4 - Fundamentos Angular - Componentes e Estilização.
+# 🧠 Seção 4 - Fundamentos Angular - Componentes e Estilização.
 
 - Conceitos de componente
 - Como criar componentes
 - Problemas na duplicação de componentes
 - Como criar componentes filhos
 - Como referenciar componentes de outros módulos (externos) → agora via imports
-- Interpolação
+- Interpolaçãohttps://github.com/FrankDestro/Angular-19/edit/main/README.md
 - Estratégias de estilização
 - Inline Template e Inline CSS
 - :host
@@ -115,7 +115,7 @@ p {
 }
 ```
 
-### @NgModule 
+### @NgModule (Obs. Versões superior a 16 não tem mais o @NgModule)
 É usado para definir um módulo em Angular. Um módulo é um contêiner que agrupa componentes, diretivas, pipes e serviços relacionados, facilitando a organização e a manutenção da aplicação. Vamos analisar cada uma das propriedades e o que elas fazem no exemplo fornecido:
 
 Gerar um novo módulo 
@@ -143,10 +143,6 @@ export class AppModule { }
 ### Utilizando componente de um módulo em outro módulo. 
 
 ![image](https://github.com/FrankDestro/Angular17-Docs/assets/93776452/c70548b7-7234-4665-8e77-b6292a1372f0)
-
-### Interpolação em Angular (um tipo de binding no Angular)
-
-![image](https://github.com/FrankDestro/Angular17-Docs/assets/93776452/37d8015e-b618-48f4-816f-31bed23fa162)
 
 ### Angular Material 
 
@@ -203,7 +199,7 @@ Esses termos são frequentemente usados para descrever como os estilos são apli
 
 ### Atributos vs propriedades de um Elemento HTML.
 
-![image](https://github.com/FrankDestro/Angular17-Docs/assets/93776452/0349a52d-a0dc-4373-93dd-edb33480ba68)]
+![image](https://github.com/FrankDestro/Angular17-Docs/assets/93776452/0349a52d-a0dc-4373-93dd-edb33480ba68)
 
 ### Tipos de Binding no Angular
 
@@ -211,6 +207,10 @@ Esses termos são frequentemente usados para descrever como os estilos são apli
 - `[ ]` → **Property Binding**
 - `( )` → **Event Binding**
 - `[()]` → **Two-way Binding**g
+
+### Interpolação em Angular (um tipo de binding no Angular)
+
+![image](https://github.com/FrankDestro/Angular17-Docs/assets/93776452/37d8015e-b618-48f4-816f-31bed23fa162)
 
 ### Properties Binding 
 
