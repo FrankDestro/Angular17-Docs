@@ -144,7 +144,7 @@ export class AppModule { }
 
 ![image](https://github.com/FrankDestro/Angular17-Docs/assets/93776452/c70548b7-7234-4665-8e77-b6292a1372f0)
 
-### Interpolação em Angular 
+### Interpolação em Angular (um tipo de binding no Angular)
 
 ![image](https://github.com/FrankDestro/Angular17-Docs/assets/93776452/37d8015e-b618-48f4-816f-31bed23fa162)
 
@@ -203,7 +203,14 @@ Esses termos são frequentemente usados para descrever como os estilos são apli
 
 ### Atributos vs propriedades de um Elemento HTML.
 
-![image](https://github.com/FrankDestro/Angular17-Docs/assets/93776452/0349a52d-a0dc-4373-93dd-edb33480ba68)
+![image](https://github.com/FrankDestro/Angular17-Docs/assets/93776452/0349a52d-a0dc-4373-93dd-edb33480ba68)]
+
+### Tipos de Binding no Angular
+
+- `{{ }}` → **Interpolação** (TS → HTML)
+- `[ ]` → **Property Binding**
+- `( )` → **Event Binding**
+- `[()]` → **Two-way Binding**g
 
 ### Properties Binding 
 
