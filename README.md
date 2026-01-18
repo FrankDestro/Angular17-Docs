@@ -195,7 +195,26 @@ Encapsulated: Em Angular, o encapsulamento refere-se ao escopo de estilos CSS ap
 3.	None: Em Angular, "none" pode ser usado para indicar que nenhum encapsulamento de estilo deve ser aplicado a um componente específico, o que significa que os estilos definidos para esse componente podem afetar globalmente a aplicação.
 Esses termos são frequentemente usados para descrever como os estilos são aplicados e encapsulados dentro da arquitetura de componentes do Angular.
 
-## Binding, Diretivas, Templates, Decorators
+### O que é ::ng-deep
+
+::ng-deep quebra o encapsulamento de estilos do Angular.
+
+No Angular, por padrão, cada componente tem style encapsulation:
+
+o CSS do componente só vale para o HTML dele
+
+não “vaza” para componentes filhos (ex: Angular Material)
+
+O ::ng-deep diz:
+
+“Ignore o encapsulamento e aplique esse CSS dentro dos componentes filhos, mesmo que eles sejam de bibliotecas (Material, PrimeNG etc).”
+
+👉 Ou seja:
+ele permite modificar estilos que normalmente você não conseguiria acessar.
+
+
+
+# 🧠 Seção 5 - Binding, Diretivas, Templates, Decorators
 
 ### Atributos vs propriedades de um Elemento HTML.
 
